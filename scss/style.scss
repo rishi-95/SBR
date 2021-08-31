@@ -1,0 +1,106 @@
+/*
+	Theme Name: Consults - Consulting and Finance HTML Landing Page Template 
+	Author: Markhor Themes
+	Author URI: https://themeforest.net/user/markhorthemes
+	Version: 1
+	Description: Consults - Consulting and Finance HTML Landing Page Template
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Text Domain: Consults
+	Tags: one-column, two-columns
+	Theme URI: http://htmlbeans.com/html/Consults/home.html
+*/
+
+/*------------------------------------------------------------------
+Flat icons set / .fi
+Box icons set / .bx
+Slick Slider / .slick-slider
+Fancybox / .lightbox
+Common Class Background Cover / .bgCover
+Common Class Transition / .transition
+Common Class Transition Color / .transitClr
+Common Class Transition Color, Background / .transitClrBg
+Common Class Transition Background / .transitBg
+Common Class Transition Color, Background, border / .transitClrBgBdr
+Common Class Transition border / .transitBdr
+Common Class Transition Opacity, Visibility / .transitOpVis
+Common Class Vertical Align Wrap / .alignHolder
+Common Class Font Base / .fontBase
+Common Class Font Jost / .fontAlter
+Common Class Font Wight Medium / .fwMedium
+Common Class Font Wight Semi Bold / .fwSemi
+Common Class Pointer Events None / .inaccessible
+Common Class Button Text Span / .btnText
+Common Class Button / .btn
+Common Class Theme Button / .btnTheme
+Common Class Theme Button White / .btnThemeWhite
+Page Wrapper / #pageWrapper
+Page Header / #pageHeader
+Page Header Schedule List / .hdScheduleList
+Page Header Button / .hdBtn
+Page Header Logo / .logo
+Page Header Nav / #pageNav
+Page Header Main Navigation / .mainNavigation
+Page Header Main Navigation Collapse / .pageMainNavCollapse
+Page Header Main Navigation Opener / .pageNavOpener
+Introl Block Slider Column/ .ibSlideColumn
+Heading Title / .headingTitle
+Heading Head / .headingHead
+Featues List / .featuresList
+Video Wrap / .videoWrap
+Video Button Play / .btnPlay
+Counter Column / .cabColumn
+Button Link More / .btnMore
+Service Column / .serviceColumn
+Team Section / .teamBlock
+Team Column Social Links / .tcSocialNetworks
+Team Column  / .teamColumn
+Sponsors Logo Image Wrap  / .lsImgWrap
+Testimonial quote  / .clientQuote
+Testimonial quote Rating Star List  / .ratingList
+Contact Form  / .ctForm
+Footer Address List  / .ftAddresList
+Footer Social Links  / .ftSocialNetworks
+Page Footer  / #pageFooter
+Page Footer Background Image  / .bgMap
+Page Footer Patterns Background Image  / .bgPattern
+Page Footer Back to Top Button  / .btnTop
+
+------------------------------------------------------------------ */
+
+@import "vendor/bootstrap/functions";
+@import "vendor/bootstrap/variables";
+
+@import "customVariables";
+@import "vendor/bootstrap/mixins";
+@import "base/customMixins";
+
+/*------------------------------------------------------------------
+flat icons set
+-------------------------------------------------------------------*/
+@import "vendor/flaticon";
+
+/*------------------------------------------------------------------
+box icons set
+-------------------------------------------------------------------*/
+@import "vendor/boxicon";
+
+/*------------------------------------------------------------------
+slick-slider
+-------------------------------------------------------------------*/
+@import "vendor/slickSlider";
+
+/*------------------------------------------------------------------
+lightbox
+-------------------------------------------------------------------*/
+@import "vendor/fancyBox";
+
+@import 'base/wp-reset';
+@import "base/commonClasses";
+@import "all";
+
+/*------------------------------------------------------------------
+Animations
+-------------------------------------------------------------------*/
+@import 'animations';
+@import 'vendor/animate';

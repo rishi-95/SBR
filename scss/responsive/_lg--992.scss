@@ -1,0 +1,66 @@
+@include media-breakpoint-up(lg){
+	h1, .h1{
+		font-size: (65/16) + rem;
+	}
+
+	h2, .h2{
+		font-size: (32/16) + rem;
+	}
+
+	.phStickyWrap{
+		min-height: 181px;
+	}
+
+	#pageHeader{
+
+		&.fixedPosition{
+
+			.hdTopBar{
+				margin-top: -80px;
+			}
+		}
+	}
+
+	.hdScheduleList{
+
+		li{
+
+			+ li{
+				margin-left: 44px;
+			}
+		}
+
+		a{
+
+			&[href^="tel"]{
+				font-size: 16px;
+			}
+		}
+	}
+
+	.hdBtn{
+		padding: 30px 27px;
+	}
+
+	.logo{
+		max-width: 185px;
+	}
+
+	#pageNav{
+		width: calc(100% - 200px);
+		padding-top: 16px;
+	}
+
+	.ibSlideColumn{
+		min-height: calc(100vh - 181px);
+	}
+
+	.scrolltoblock{
+		margin-top: -101px;
+		padding-top: 101px;
+	}
+
+	.mapWrap{
+		min-height: 500px;
+	}
+}

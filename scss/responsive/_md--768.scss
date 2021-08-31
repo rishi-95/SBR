@@ -1,0 +1,126 @@
+@include media-breakpoint-up(md){
+	h1, .h1{
+		font-size: (45/16) + rem;
+	}
+
+	.phStickyWrap{
+		min-height: 120px;
+	}
+
+	#pageHeader{
+
+		&.fixedPosition{
+
+			.hdTopBar{
+				transition-delay: 1s;
+				margin-top: -61px;
+			}
+		}
+	}
+
+	.hdTopBar{
+		transition: margin 0.3s ease;
+		min-height: 1px;
+	}
+
+	.hdBtn{
+		padding: 20px 7px;
+		position: static;
+	}
+
+	#pageNav{
+		padding-top: 9px;
+	}
+
+	.mainNavigation{
+
+		&,
+		&.navbar-nav{
+
+			.nav-item{
+				margin-left: 27px;
+
+				&.active{
+
+					.nav-link{
+						background-color: transparent;
+					}
+				}
+			}
+
+			.nav-link{
+				padding: 0;
+				font-size: 14px;
+
+				&:hover{
+					background-color: transparent;
+				}
+			}
+
+			.navbar-expand-md &{
+
+				.nav-link{
+					padding-left: 0;
+					padding-right: 0;
+				}
+			}
+		}
+	}
+
+	.pageMainNavCollapse{
+		background-color: transparent;
+		position: static;
+		transform: none;
+
+		&.show{
+			transform: none;
+		}
+	}
+
+	.ibSlideColumn{
+		min-height: calc(100vh - 120px);
+	}
+
+	.serviceColumn,
+	.teamColumn{
+		max-width: none;
+	}
+
+	.tcCaption{
+		width: calc(100% - 80px);
+	}
+
+	.ctForm{
+
+		textarea{
+
+			&,
+			&.form-control{
+				height: 250px;
+			}
+		}
+	}
+
+	.reqAsideBlock{
+
+		.title{
+			font-size: 26px;
+		}
+	}
+
+	.ftSocialNetworks{
+		margin-bottom: 0;
+	}
+
+	#pageFooter{
+
+		p{
+			margin-bottom: 0;
+		}
+	}
+
+	.scrolltoblock{
+		margin-top: -60px;
+		padding-top: 60px;
+	}
+}

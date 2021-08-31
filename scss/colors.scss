@@ -1,0 +1,50 @@
+@import "vendor/bootstrap/functions";
+@import "vendor/bootstrap/variables";
+@import "customVariables";
+
+
+.btnTheme.btnNoOver:hover,
+.btnTheme::before,
+.btnThemeWhite .btnText,
+.hdScheduleList a[href^="tel"],
+.mainNavigation .nav-item.active .nav-link,
+.mainNavigation.navbar-nav .nav-item.active .nav-link,
+.mainNavigation .nav-link:hover,
+.mainNavigation.navbar-nav .nav-link:hover,
+.headingTitle,
+.featuresList > li::before,
+.btnPlay:hover,
+.btnMore:hover,
+.ratingList,
+.ftAddresList .icnWrap,
+.ftSocialNetworks a,
+#pageFooter p a{
+	color: $wpThemeColor;
+}
+
+.btnTheme.btnNoOver,
+.btnTheme .btnText,
+.btnThemeWhite::before,
+.hdScheduleList .icnWrap,
+.hdBtn,
+.btnPlay,
+.serviceColumn .icnWrap,
+.teamBlock::before,
+.tcSocialNetworks a:hover,
+.reqAsideBlock,
+.ftSocialNetworks a:hover,
+.btnTop:hover{
+	background-color: $wpThemeColor;
+}
+
+.btnTheme.btnNoOver,
+.btnTheme.btnNoOver:hover,
+.btnTheme::before,
+.btnTheme .btnText,
+.btnThemeWhite::before,
+.headingHead.hhv2 .headingTitle::before,
+.headingHead.hhv2 .headingTitle::after,
+.headingHead::after,
+.tcSocialNetworks a:hover{
+	border-color: $wpThemeColor;
+}
